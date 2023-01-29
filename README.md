@@ -19,3 +19,8 @@
 
 
 3- Add new record in resolv.conf file at manage node (/etc/resolv.conf) using playbook from control node
+
+![image](https://user-images.githubusercontent.com/40915944/215343504-634aa804-873c-4555-ae5a-590e3feb6c15.png)
+![image](https://user-images.githubusercontent.com/40915944/215343527-3fef23d8-edb5-4215-bf87-d4234da48b9c.png)
+![image](https://user-images.githubusercontent.com/40915944/215343550-dafafad9-d297-4862-a2d0-078973c223e6.png)
+

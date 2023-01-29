@@ -1,0 +1,9 @@
+---
+- name: Add new record in resolv.conf file at manage node
+  hosts: all
+  become: true
+  tasks:
+    - name: Add new record in resolv file at manage node
+      lineinfile: 
+          path: "/etc/resolv.conf"
+          line: "nameserver 8.8.8.8"

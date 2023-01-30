@@ -7,9 +7,9 @@ creating a new managed node of Centos and configure it with the controllar node 
 ![image](https://user-images.githubusercontent.com/40915944/215474024-fe871e17-a970-494e-afed-6e1085a00b8a.png)
 ![image](https://user-images.githubusercontent.com/40915944/215499121-ea7b6966-2639-4fa9-a7b9-02a8e01b8bef.png)
 
-creating a playbook to install apache web server on the managed nodes ubnuntu and centos using variables, lists and handleres.
+creating a playbook to install apache web server on the managed nodes ubnuntu and centos using variables, lists, tags and handleres.
 
-![image](https://user-images.githubusercontent.com/40915944/215498599-d4608921-dbd3-4339-b121-46320fbaa481.png)
+![image](https://user-images.githubusercontent.com/40915944/215513084-d6b8d7be-0529-4e73-b3b6-f715a36be127.png)
 ![image](https://user-images.githubusercontent.com/40915944/215498729-d46b67b1-cdb8-4a7d-a59b-a52e6aed047a.png)
 
 running the playbook and show the result on the browser.

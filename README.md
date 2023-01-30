@@ -12,7 +12,7 @@ creating a playbook to install apache web server on the managed nodes ubnuntu an
 ![image](https://user-images.githubusercontent.com/40915944/215498599-d4608921-dbd3-4339-b121-46320fbaa481.png)
 ![image](https://user-images.githubusercontent.com/40915944/215498729-d46b67b1-cdb8-4a7d-a59b-a52e6aed047a.png)
 
-running the playbook and show the result on browsers.
+running the playbook and show the result on the browser.
 
 ![image](https://user-images.githubusercontent.com/40915944/215497443-1088feea-2d2d-493e-8863-478ff8c12bc7.png)
 ![image](https://user-images.githubusercontent.com/40915944/215497762-b380aec9-78a6-476b-87d4-af1525917a52.png)

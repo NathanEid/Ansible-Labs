@@ -1,0 +1,42 @@
+---
+- name: install apache on ubuntu and centos
+  hosts: all
+  become: true
+  become_user: root
+  vars_files:
+    - vars.yaml
+  tasks:
+    - name: Install apache on ubuntu
+      apt:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - "{{ ubuntu }}"
+        - vim
+      tags: ubuntu
+      when: ansible_os_family == "Debian"
+
+    - name: Install apache on centos
+      yum:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - "{{ centos }}"
+        - vim
+      tags: centos
+      when: ansible_os_family == "RedHat"
+
+  handlers:
+    - name: Restart apache
+      service:
+        name: "{{ ubuntu }}"
+        state: started
+      tags: ubuntu
+      when: ansible_os_family == "Debian"
+
+    - name: Restart httpd
+      service:
+        name: "{{ centos }}"
+        state: started
+      tags: centos
+      when: ansible_os_family == "RedHat"
